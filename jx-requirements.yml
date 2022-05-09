@@ -17,6 +17,8 @@ spec:
     registry: 10.98.142.59
   environments:
   - key: dev
+    owner: quinnjr
+    repository: jx3-minikube
   - key: staging
   - key: production
   ingress:
@@ -27,6 +29,8 @@ spec:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: quinnjr
   repository: bucketrepo
   secretStorage: local
   vault: {}
