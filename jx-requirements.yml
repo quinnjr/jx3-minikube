@@ -14,6 +14,7 @@ spec:
     gitName: github
     gitServer: https://github.com
     provider: minikube
+    registry: 10.98.142.59
   environments:
   - key: dev
   - key: staging
